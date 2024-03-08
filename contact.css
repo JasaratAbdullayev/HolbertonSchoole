@@ -1,0 +1,197 @@
+/** @format */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249, 248, 248);
+}
+
+header {
+  background-color: #076e97;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header ul li {
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  text-decoration-color: aliceblue;
+}
+.navbar .container .menu {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  column-gap: 170px;
+  margin-right: 250px;
+}
+.navbar .container .menu li {
+  cursor: pointer;
+}
+.navbar .container .menu li:hover {
+  font-weight: bold;
+  color: rgb(18, 22, 15);
+}
+
+.logo h1 a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Annie Use Your Telescope", cursive;
+  color: red;
+}
+
+.navbar .container .menu ul li {
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration-color: aliceblue;
+}
+
+footer {
+  background-color: #076e97;
+}
+
+main {
+  padding: 20px;
+
+  background-image: url("https://media.istockphoto.com/id/507525458/photo/cappadocia-ballooning.jpg?s=2048x2048&w=is&k=20&c=q49nyQpt3dGaXga21Pg6CAWJ1EVx8Tkn4xjlNKXrdRU=");
+}
+
+.aspect {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+.container1 {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+
+  transition: opacity 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+/* name placeholder*/
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border-block-color: rgb(170, 50, 220, 0.6);
+  writing-mode: sideways-lr;
+  direction: ltr;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #80f678;
+  color: #fff;
+  border: none;
+  width: 500px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.contact-form input[type="reset"] {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.social_media2 {
+  text-decoration: none;
+  margin-left: 700px;
+}
+.social_media3 {
+  text-decoration: none;
+  margin-left: 40px;
+}
+.social_media1 img {
+  width: 30px;
+  transition: transform 0.3s;
+}
+.social_media2 img {
+  width: 30px;
+  transition: transform 0.3s;
+}
+.social_media3 img {
+  width: 30px;
+  transition: transform 0.3s;
+}
+.social_media img:hover {
+  transform: scale(1.1);
+}
+a:hover {
+  color: black;
+}
+
+footer {
+  background-color: #076e97;
+  color: #fff;
+  padding: 21px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+footer a {
+  color: #fff;
+}
