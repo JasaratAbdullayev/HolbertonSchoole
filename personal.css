@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+.profil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .profil{ 
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+ }
+ nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    column-gap: 220px;
+  }
+  nav li{
+    cursor: pointer;
+    font-size: larger;
+  }
+  nav li:hover{
+    font-weight: bold;
+  }
+ nav{
+    z-index: 1;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      position: sticky;
+      top: 0;
+   }
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the about section */
+#about {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Add more styles and customize according to your preferences */
